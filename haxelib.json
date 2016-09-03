@@ -1,0 +1,23 @@
+{
+	"name": "ecx-common",
+	"license": "MIT",
+	"tags": [
+		"ecx",
+		"update",
+		"time",
+		"systems",
+		"cross",
+		"fps"
+	],
+	"classPath": "src",
+	"description": "Essential utilities for ECX",
+	"contributors": [
+		"eliasku"
+	],
+	"releasenote": "initial",
+	"version": "0.1.0",
+	"url": "https://github.com/eliasku/ecx-common",
+	"dependencies": {
+		"ecx": ""
+	}
+}
