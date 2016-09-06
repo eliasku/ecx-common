@@ -1,4 +1,4 @@
-package ecx.utility.systems;
+package ecx.common.systems;
 
 class FpsMeter extends System {
 

@@ -1,3 +1,3 @@
-package ecx.utility.components;
+package ecx.common.components;
 
 class Name extends AutoComp<String> {}

@@ -1,4 +1,4 @@
-package ecx.utility.systems;
+package ecx.common.systems;
 
 import ecx.ds.CArray;
 import haxe.Timer;

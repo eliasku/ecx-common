@@ -1,4 +1,4 @@
-package ecx.utility.systems;
+package ecx.common.systems;
 
 @:final
 class TimeSystem extends System {
