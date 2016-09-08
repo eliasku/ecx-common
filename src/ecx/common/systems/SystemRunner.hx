@@ -31,6 +31,8 @@ class SystemRunner extends Service {
 			return;
 		}
 
+		// just in case invalidate after system events callbacks
+		world.invalidate();
 		for(system in world.systems()) {
 			@:privateAccess system.update();
 			world.invalidate();
@@ -45,6 +47,10 @@ class SystemRunner extends Service {
 
 	function updateAndProfileSystems() {
 		_profiler.prepare();
+
+		// TODO: include zero-invalidation in profiling data
+		world.invalidate();
+
 		for(system in world.systems()) {
 			_profiler.start();
 
