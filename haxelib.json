@@ -10,7 +10,7 @@
 		"fps"
 	],
 	"classPath": "src",
-	"description": "Essential common utilities for ECX",
+	"description": "Essential utilities for ECX",
 	"contributors": [
 		"eliasku"
 	],
